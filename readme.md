@@ -1,10 +1,14 @@
 #how to run the django program
 
-### **install python**
+## **install python**
+
+---
 
 you need to have [Python](https://www.github.com "Python") installed in your machine
 
-### **virtual machine**
+## **virtual machine**
+
+---
 
 after cloning the repo, you need to create virtual machine so you can install the required packages in the project.
 Inside the project repo open your terminal and write the following code to create virtual enviornment
@@ -39,7 +43,9 @@ or cmd
 .\venv\Scripts\activate
 ```
 
-### **installing required packages**
+## **installing required packages**
+
+---
 
 to install required packages for the project write this code in your terminal while your virtual enviornment is on:
 
@@ -47,7 +53,9 @@ to install required packages for the project write this code in your terminal wh
 pip install -r requirements.txt
 ```
 
-### **django migrations**
+## **django migrations**
+
+---
 
 ```py
 python manage.py makemigrations
@@ -59,7 +67,9 @@ then
 python manage.py migrate
 ```
 
-### **run the program**
+## **run the program**
+
+---
 
 ```py
 python manage.py runserver
